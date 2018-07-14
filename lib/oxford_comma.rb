@@ -5,10 +5,10 @@ elsif 2>=array.length
   return array.join (" and ")
 
 elsif 3>=array.length
-  return array.insert(3, " and ")
-  array.insert(1, ",")
-  array.insert(2, ",")
-  array.join
+  array.insert(2, "and ")
+    array.insert(1, ", ")
+    array.insert(3, ", ")
+    array.join
 
   end
 end
