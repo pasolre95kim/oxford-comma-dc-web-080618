@@ -11,7 +11,7 @@ elsif 3>=array.length
     array.join
 
   elsif 3<=array.length
-  array.join(",")
+  array.join(", ")
 
   end
 end
