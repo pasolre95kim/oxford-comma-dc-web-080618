@@ -10,7 +10,7 @@ elsif 3>=array.length
     array.insert(3, ", ")
     array.join
 
-  elseif 3<=array.length
+  elsif 3<=array.length
   array.join(",")
 
   end
