@@ -6,6 +6,8 @@ elsif 2>=array.length
 
 elsif 3>=array.length
   return array.insert(3, " and ")
+  array.insert (1, ",")
+  array.insert (2, ",")
   array.join
 
   end
