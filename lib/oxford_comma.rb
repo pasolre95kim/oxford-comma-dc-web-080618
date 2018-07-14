@@ -12,7 +12,7 @@ elsif 3>=array.length
 
   elsif 3<=array.length
   array.join(", ")
-  array.last.join (", "and ")
+  array.last.join (", and ")
 
   end
 end
