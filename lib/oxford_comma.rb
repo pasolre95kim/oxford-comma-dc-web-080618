@@ -12,6 +12,7 @@ elsif 3>=array.length
 
   elsif 3<=array.length
   array.join(", ")
+  array.insert(-1, "and ")
 
   end
 end
