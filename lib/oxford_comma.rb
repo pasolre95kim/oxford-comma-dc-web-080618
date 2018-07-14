@@ -9,7 +9,9 @@ elsif 3>=array.length
     array.insert(1, ", ")
     array.insert(3, ", ")
     array.join
-    
+
+  elseif 3<=array.length
+  
 
   end
 end
