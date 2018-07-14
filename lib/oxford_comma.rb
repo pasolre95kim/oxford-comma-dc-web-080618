@@ -5,7 +5,7 @@ elsif 2>=array.length
   return array.join (" and ")
 
 elsif 3>=array.length
-  return 
+  return array.insert(3, 'and')
 
   end
 end
