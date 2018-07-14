@@ -11,8 +11,7 @@ elsif 3>=array.length
     array.join
 
   elsif 3<=array.length
-  array.join(", ")
-  [array.last].join (", and ")
-
+    [array[0...-1].join(", "), array.last].join(", and ")
+    end
   end
 end
